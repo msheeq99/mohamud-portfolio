@@ -1,8 +1,9 @@
 import React from "react";
 
+
 export default function Hero() {
     return (
-        <section>
+        <section id="hero22">
             
             
         <div class="container" id="HOME">
@@ -20,7 +21,7 @@ export default function Hero() {
             </div>
         
 
-        <div class="hori-line">
+        <div class="horizontalLine">
             <div class="horizontal">
                 <div class="circle"></div>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import sosa from "../images/sosa.JPG";
 
 
 
@@ -8,7 +9,7 @@ export default function about () {
         
         <div class="about-me">
             <div class="line"></div>
-           <img src= "../images/profile.png" alt="a picture of me"></img>
+           <img src= {sosa} alt="img"></img>
            <div class="about-text">
             <h2>ABOUT ME</h2>
             <h5><span> Developer </span>& Designer</h5>

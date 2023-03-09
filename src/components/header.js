@@ -40,7 +40,8 @@ export default function Header() {
         <ul class="nav-list">
             <li><a href="#HOME">HOME</a></li>
             <li><a href="#ABOUT ME">ABOUT ME</a></li>
-            <li><a href="#SERVICES">SERVICES</a></li>
+            <li><a href="#SERVICES">PROJECTS</a></li>
+            <li><a href="https://github.com/msheeq99">GITHUB</a></li>
             <li class="btn"><a href="#CONTACT">CONTACT</a></li>
         </ul>
     </nav>
@@ -48,3 +49,4 @@ export default function Header() {
   );
 
 }
+
