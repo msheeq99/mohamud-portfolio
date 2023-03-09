@@ -1,38 +1,737 @@
-.App {
+
+/* ---VARIABLES--- */
+:root {
+  --green: #2ecc75;
+  --white: #eee;
+  --ff--:'Poppins',sans-serif;
+  --dark-grey: #191919;
+}
+
+
+
+/* ---GLOBAL--- */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff--);
+  text-decoration: none;
+  background-color: black;
+  
+  
+
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+
+}
+
+span {
+  color: var(--green);
+}
+
+p {
+  width: 440px;
+  max-width: 100%;
+  color: var(--white);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* ---SECTION STARTS HERE--- */
+
+.hero {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5))black;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.main-width {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0px 20px;
+
+}
+
+/* ---HEADER STARTS HERE--- */
+
+header {
+  padding: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.portfolio {
+  color: var(--white);
+  font-size: 48px;
+  display: inline-block;
+  font-family: var(--ff--);
+  margin-left: 45px;
+}
+
+
+/* ---NAV STARTS HERE--- */
+
+nav .hamb{
+  width: 35px;
+  height: 24px;
+  right: 3%;
+  top: 60px;
+  z-index: 5;
+  background: var(--white);
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+nav .hamb span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  transition: .3s;
+  transition-property: transform, opacity;
+
+}
+
+nav .hamb span:nth-child(2){
+  margin: 7px 0px;
+
+}
+
+nav .nav-list {
+  list-style: none;
+}
+
+nav .nav-list li {
+  display: inline-block;
+}
+
+nav .nav-list li a {
+  display: inline-block;
+  color: var(--white);
+  margin-left: 55px;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+
+nav .nav-list li:not(:last-child) a:hover{
+  color: var(--green);
+  transition: .4s;
+
+}
+
+nav .nav-list li.btn a {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid var(--green);
+  padding: 9px 28px;
+  border-radius: 30px;
+  line-height: 1.3;
+  color: var(--green);
+  font-weight: 500;
+
+}
+
+nav .nav-list li.btn:hover a {
+  background: var(--green);
+  color: var(--white);
+  border: 2px solid transparent;
+  transition: .4s;
+
+}
+
+/* ---NAV ENDS HERE--- */
+
+/* --- HEADER ENDS HERE--- */
+
+.container {
+  padding-top: 135px;
+  margin-left: 45px;
+
+}
+
+.wrapper {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  left: 560px;
+  bottom: 1px;
+  border: 5px solid var(--white);
+  border-radius: 50%;
+  background: url(../assest/IMG_0880.JPG);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 100px auto;
+  overflow: hidden;
+  
+}
+
+.container .hero-text {
+  padding: 2%;
+  position: relative;
+}
+
+.container .hero-text h1{
+  color: var(--white);
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0px 20px;
+
+}
+
+.container .hero-text h3 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 17px;
+
+}
+
+.social a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: var(--white);
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 35px;
+}
+
+.social a:hover {
+  transform: scale(1.1);
+  background: var(--green);
+  transition: .4s;
+}
+
+
+.line {
+  border-left: 8px solid var(--green);
+  height: 400px;
+  width: 2px;
+  position: absolute;
+  left: 38%;
+  top: 100px;
+}
+
+/* ---HEADER ENDS HERE--- */
+
+/* ---ARTICLE/ABOUT ME STARTS HERE--- */
+
+.hori-line {
+  padding: 100px;
+
+}
+
+.horizontal {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+
+.horizontal::before , .horizontal::after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: var(--white);
+  width: 45%;
+  top: 50%;
+}
+
+.horizontal::after {
+  left: 0;
+}
+
+.horizontal::before {
+  right: 0;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border: 2px solid var(--green);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+
+
+}
+
+.about-me {
+  width: 100px;
+  padding: 100px 0px;
+  background-color: black;
+
+}
+
+.about-me img {
+  height: auto;
+  width: 300px;
+  top: 70px;
+}
+
+.about-text {
+  width: 550px;
+  
+
+}
+
+.about-me{
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 100px;
+
+}
+
+.about-text h2 {
+  color: var(--white);
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-bottom: 23px;
+  text-transform: capitalize;
+  font-family: var(--ff--);
+
+}
+
+.about-text h5 {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 20px 0px 20px;
+
+
+}
+
+
+.hori-line-2 {
+  padding: 100px;
+
+
+}
+
+.horizontal-2 {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+
+.horizontal-2::before , .horizontal-2::after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: var(--white);
+  width: 45%;
+  top: 50%;
+}
+
+.horizontal-2::after {
+  left: 0;
+}
+
+.horizontal-2::before {
+  right: 0;
+}
+
+.circle-2 {
+  height: 40px;
+  width: 40px;
+  border: 2px solid var(--green);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+
+
+}
+
+/*---ARTICLE SERVICE SECTION STARTS---*/ 
+
+.s-holder {
+  background: black;
+  width: 100%;
+  padding: 0;
+  height: 100px;
+  
+  
+ 
+  
+
+}
+
+.title h2 {
+  color: var(--white);
+  font-size: 30px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  margin-bottom: 150px;
+  position: relative;
+  bottom: 89px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: nowrap;
+  padding: 100px;
+  position: relative;
+  bottom: 45px;
+ 
+
+}
+
+
+.card {
+  height: 560px;
+  width: 335px;
+  position: relative;  
+  
+}
+
+#card-3 {
+  position: relative;
+  left: 100px;
+}
+
+#card-1 {
+  position: relative;
+  right: 100px;
+}
+
+.card img {
+  height: 50%;
+  width: 300px;
+}
+
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: var(--green);
+}
+
+.card h3 {
+  color: var(--white);
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  
+}
+
+.work p{
+  color: var(--white);
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.h {
+  width: 80%;
+  height: 7px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 450px;
+  margin-bottom: 100px;
+  background-color: var(--white);
+}
+
+/*--- FOOTER ---*/
+
+.c-holder {
+ position: relative;
+ padding: 50px 100px;
+ display: flex;
+ bottom: 50px;
+ height: 10px;
+ 
+}
+
+.c-holder h2 {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  bottom: 100px;
+}
+
+.contact-info i {
+ 
+  font-size: 30px;
+  display: flex;
+  margin: 25px 70px;
+  color: var(--green);
+}
+
+.contact-info p {
+  font-size: 16px;
+  line-height: 27px;
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ---MEDIA QUERIES--- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1024px) {
+  .nav-list {
+      position: relative;
+      left: 200px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  .hero-text p {
+      font-size: 18px;
+  }
+  
+  .about-text h2, h5 {
+      position: relative;
+      bottom: 60px;
+      left: 90px;
+  }
+
+  .about-text p {
+      position: relative;
+      bottom: 60px;
+      left: 90px;
+      font-size: 19px;
+  }
+
+  .line {
+      position: relative;
+      margin-left: 100px;
+  }
+
+  .about-me img {
+      position: relative;
+      left: 30px;
+  }
+
+
+  .title {
+      position: relative;
+      bottom: 45px;
+      right: 29px;
+  }
+
+ #card-1 {
+      display: inline-block;
+      width: 140%;
+ }
+
+ 
+
+ #card-2 {
+     display: inline-block;
+     width: 140%;
+ }
+
+ #card-3 {
+     display: inline-block;
+     width: 140%;
+ }
+
+ .box {
+  position: relative;
+  left: 50px;
+  width: 150%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+ }
+
+} 
+  /* ---MEDIA QUERIES--- */
+
+@media screen and (max-width: 768px) {
+  
+
+  .nav-list {
+      width: 100%;
+      position: relative;
+      left: 160px;
+      top: 10px;
+  }
+
+  .btn {
+     position: relative;
+     left: 390px;
+     bottom: 32px;
+  }
+
+  .box {
+      display: flex;
+      width: 45%;
+      size: 60%;
+      position: relative;
+      left: 250px;
+      
+      
+  }
+
+  .hori-line {
+      width: 100%;
+      justify-content: center;
+      position: relative;
+      left: 100px;        
+  }
+
+  .hori-line-2 {
+      position: relative;
+      bottom: 100px;
+  }
+
+
+  .hero-text p {
+      font-size: 17px;
+  }
+
+  .about-me h2,h5 {
+      position: relative;
+      bottom: 10px;
+      left: 200px;
+      top: 10px;
+  }
+
+  .about-me p{
+      font-size: 20px;
+      position: relative;
+      top: 10px;
+      left: 200px;
+  }
+  
+  .line {
+      position: relative;
+      bottom: 120px;
+      left: 473px;
+  }
+
+  .about-me img {
+      left: 133px;
+  }
+
+  .hori-line-2 {
+      width: 100%;
+      justify-content: center;
+      position: relative;
+      left: 135px;        
+  }
+
+  #card-3  {
+     position: relative;
+     left: 350px;
+  }
+
+  #card-3 img {
+      width: 100%;
+  }
+
+  #card-2 {
+      position: relative;
+      left: 100px;
+  }
+
+  .title h2 {
+      font-size: 38px;
+  }
+
+  .c-holder {
+      position: relative;
+      top: 100px;
+      
+  }
+
+  .h {
+      position: relative;
+      top: 150px;
+  }
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ---MEDIA QUERIES--- */
+
+@media screen and (max-width: 425px) {
+ .box {
+  width: 100%;
+  height: 10px;
+  display: block;
+  
+ }
+
+ .title h2 {
+  position: relative;
+  bottom: 150px;
+  left: 200px;
+ }
+
+ #card-1 {
+  position: relative;
+  bottom: 370px;
+  left: 170px;
+  
+ }
+
+ #card-2 {
+  position: relative;
+  bottom: 270px;
+  left: 170px;
+
+  
+ }
+
+ #card-3 {
+  position: relative;
+  bottom: 200px;
+  left: 170px;
+ }
+
+ .card p {
+  font-size: 18px;
+
+ }
+
+ .h{
+  position: relative;
+  top: 1250px;
+ }
+
+ .c-holder {
+  position: relative;
+  top: 1150px;
+ }
+
+
 }

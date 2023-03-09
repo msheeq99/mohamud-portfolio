@@ -1,31 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import 'bootstrap';
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
+import Project from "./components/Project";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
-function App() {
+export default function App() {
   return (
     <div>
-      <Nav />
-      <Learn />
-      {/* <Home/>
-      <About />
-      <Services/>s
-      <Education/>
-      <Work/>
-      <Contact/> */}
-      <Routes>
-        <Route exact="true" path="/myportfolio" element={<Home />}></Route>
-        <Route path="/myportfolio" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/services" element={<Services />}></Route>
-        <Route path="/work" element={<Work />}></Route>
-        <Route path="/education" element={<Education />}></Route>
-        <Route path="/projects" element={<Jsprojects />}></Route>
-        <Route path="/portfolio" element={<Projects />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="*" element={<PageNotFound />}></Route>
-      </Routes>
+      <Header />
+      <Hero />
+      <AboutMe />
+      <Project />
+      <Contact />
+      <Footer />
     </div>
   );
 }
-
-export default App;
