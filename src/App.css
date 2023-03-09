@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap");
 /* ---VARIABLES--- */
 :root {
   --green: #2ecc75;
@@ -167,22 +167,20 @@ nav .nav-list li.btn:hover a {
 
 }
 
-.wrapper {
+/* .wrapper {
   height: 400px;
   width: 400px;
   position: absolute;
-  left: 560px;
-  bottom: 1px;
-  border: 5px solid var(--white);
-  border-radius: 50%;
-  background: url(./images/IMG_0161.PNG);
+  left: 660px;
+  border: 10px solid var(--white);
+  background: url(./images/profile.PNG);
   background-size: 100% auto;
   background-position: center;
   margin: 100px auto;
   overflow: hidden;
-  
+  top: 10px;
 }
-
+*/
 .container .hero-text {
   padding: 2%;
   position: relative;
