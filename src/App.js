@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import About from "./components/about";
 import Projects from './components/project'
-import Contact from "./components/contact";
+
 
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
       <Hero />
       <About />
       <Projects />
-      <Contact />
+      
     </div>
   );
 }

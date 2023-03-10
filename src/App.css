@@ -88,6 +88,7 @@ p {
 .brand h1 span {
   color: var(--green);
 }
+ 
 
 
 
@@ -248,6 +249,7 @@ nav .nav-list li.btn:hover a {
   font-size: 17px;
 
 }
+
 
 .social a {
   width: 37px;
@@ -496,38 +498,7 @@ nav .nav-list li.btn:hover a {
 
 /*--- FOOTER ---*/
 
-.c-holder {
- position: relative;
- padding: 50px 100px;
- display: flex;
- bottom: 50px;
- height: 10px;
- 
-}
 
-.c-holder h2 {
-  color: var(--white);
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-  position: relative;
-  bottom: 100px;
-}
-
-.contact-info i {
- 
-  font-size: 30px;
-  display: flex;
-  margin: 25px 70px;
-  color: var(--green);
-}
-
-.contact-info p {
-  font-size: 16px;
-  line-height: 27px;
-  display: flex;
-  text-align: center;
-}
 
 /* ---MEDIA QUERIES--- */
 
