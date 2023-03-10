@@ -2,7 +2,7 @@
 /* ---VARIABLES--- */
 :root {
   --green: #2ecc75;
-  --white: #eee;
+  --white: white;
   --ff--:'Poppins',sans-serif;
   --dark-grey: #191919;
 }
@@ -496,237 +496,90 @@ nav .nav-list li.btn:hover a {
 }
 
 
-/*--- FOOTER ---*/
 
 
 
-/* ---MEDIA QUERIES--- */
 
-@media screen and (max-width: 1024px) {
-  .nav-list {
-      position: relative;
-      left: 200px;
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+  .cta {
+    font-size: 2.5rem;
+    padding: 20px 60px;
+  }
+  h1.section-title {
+    font-size: 6rem;
   }
 
-  .hero-text p {
-      font-size: 18px;
+  /* Hero */
+  .container h1 {
+    font-size: 7rem;
   }
-  
-  .about-text h2, h5 {
-      position: relative;
-      bottom: 60px;
-      left: 90px;
+  /* End Hero */
+
+  /* Project */
+  #projects .project-item {
+    flex-direction: row;
   }
-
-  .about-text p {
-      position: relative;
-      bottom: 60px;
-      left: 90px;
-      font-size: 19px;
+  #projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
   }
-
-  .line {
-      position: relative;
-      margin-left: 100px;
+  #projects .project-item {
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
   }
-
-  .about-me img {
-      position: relative;
-      left: 30px;
+  #projects .all-projects .project-info {
+    height: 100%;
   }
-
-
-  .title {
-      position: relative;
-      bottom: 45px;
-      right: 29px;
+  #projects .all-projects .project-img {
+    height: 100%;
   }
+  /* End Project */
 
- #card-1 {
-      display: inline-block;
-      width: 140%;
- }
-
+  /* About */
+ .about-me {
+    flex-direction: row;
+  }
+  .about .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+  .about-me img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid var(--green);
+  }
  
+  /* End About */
 
- #card-2 {
-     display: inline-block;
-     width: 140%;
- }
 
- #card-3 {
-     display: inline-block;
-     width: 140%;
- }
 
- .box {
-  position: relative;
-  left: 50px;
-  width: 150%;
-  align-items: center;
-
- }
-
-} 
-  /* ---MEDIA QUERIES--- */
-
-@media screen and (max-width: 768px) {
-  
-
-  .nav-list {
-      width: 100%;
-      position: relative;
-      left: 160px;
-      top: 10px;
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+  /* header */
+  #header .hamburger {
+    display: none;
   }
-
-  .btn {
-     position: relative;
-     left: 390px;
-     bottom: 32px;
+  #header .nav-list ul {
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
   }
-
-  .box {
-      display: flex;
-      width: 45%;
-      size: 60%;
-      position: relative;
-      left: 250px;
-      
-      
+  #header .nav-list ul li {
+    display: inline-block;
   }
-
-  .hori-line {
-      width: 100%;
-      justify-content: center;
-      position: relative;
-      left: 100px;        
+  #header .nav-list ul li a {
+    font-size: 1.8rem;
   }
-
-  .hori-line-2 {
-      position: relative;
-      bottom: 100px;
+  #header .nav-list ul a:after {
+    display: none;
   }
-
-
-  .hero-text p {
-      font-size: 17px;
-  }
-
-  .about-me h2,h5 {
-      position: relative;
-      bottom: 10px;
-      left: 200px;
-      top: 10px;
-  }
-
-  .about-me p{
-      font-size: 20px;
-      position: relative;
-      top: 10px;
-      left: 200px;
-  }
-  
-  .line {
-      position: relative;
-      bottom: 120px;
-      left: 473px;
-  }
-
-  .about-me img {
-      left: 133px;
-  }
-
-  .hori-line-2 {
-      width: 100%;
-      justify-content: center;
-      position: relative;
-      left: 135px;        
-  }
-
-  #card-3  {
-     position: relative;
-     left: 350px;
-  }
-
-  #card-3 img {
-      width: 100%;
-  }
-
-  #card-2 {
-      position: relative;
-      left: 100px;
-  }
-
-  .title h2 {
-      font-size: 38px;
-  }
-
-  .c-holder {
-      position: relative;
-      top: 100px;
-      
-  }
-
-  .h {
-      position: relative;
-      top: 150px;
-  }
-
+  /* End header */
 }
-
-
-/* ---MEDIA QUERIES--- */
-
-@media screen and (max-width: 425px) {
- .box {
-  width: 100%;
-  height: 10px;
-  display: block;
-  
- }
-
- .title h2 {
-  position: relative;
-  bottom: 150px;
-  left: 200px;
- }
-
- #card-1 {
-  position: relative;
-  bottom: 370px;
-  left: 170px;
-  
- }
-
- #card-2 {
-  position: relative;
-  bottom: 270px;
-  left: 170px;
-
-  
- }
-
- #card-3 {
-  position: relative;
-  bottom: 200px;
-  left: 170px;
- }
-
- .card p {
-  font-size: 18px;
-
- }
-
- .h{
-  position: relative;
-  top: 1250px;
- }
-
- .c-holder {
-  position: relative;
-  top: 1150px;
- }
-
-
-}
+/* End  Media Query For Desktop */
