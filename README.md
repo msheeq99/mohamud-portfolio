@@ -32,7 +32,8 @@ npm start
 
 #### Screenshot
 
-![scrnli_10_03_2023_00-07-26](https://user-images.githubusercontent.com/113865888/224190107-1edce9bc-01fd-4a40-812b-2d2448f34ab4.png)
+
+![portfolio2 0](https://user-images.githubusercontent.com/113865888/226114211-0d0be99b-3798-4faa-ad77-5bfa2ffd918c.png)
 
 
 ### Link to the application running on Github Pages: 
