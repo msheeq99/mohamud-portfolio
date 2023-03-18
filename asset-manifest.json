@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/mohamud-portfolio/static/css/main.8a2bb796.css",
-    "main.js": "/mohamud-portfolio/static/js/main.b256dbb9.js",
-    "static/js/787.27ca2965.chunk.js": "/mohamud-portfolio/static/js/787.27ca2965.chunk.js",
-    "static/media/rr.png": "/mohamud-portfolio/static/media/rr.21b0f2373f285424dbfb.png",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/mohamud-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/sosa.JPG": "/mohamud-portfolio/static/media/sosa.5698bb6247131b602ad1.JPG",
-    "static/media/fontawesome-webfont.eot": "/mohamud-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/mohamud-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/apiquiz.png": "/mohamud-portfolio/static/media/apiquiz.60ca8efba9ae5dcded33.png",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/mohamud-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/pgen.png": "/mohamud-portfolio/static/media/pgen.7fcebaaccba073b6a583.png",
-    "static/media/wds.png": "/mohamud-portfolio/static/media/wds.e09b30056cbf8c539c7f.png",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/mohamud-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/tpg.png": "/mohamud-portfolio/static/media/tpg.55994bf3712cd737d9b7.png",
-    "static/media/note-taker.png": "/mohamud-portfolio/static/media/note-taker.52734ccadb605aca4d53.png",
-    "static/media/jate.png": "/mohamud-portfolio/static/media/jate.80c27ec2559cda015221.png",
-    "static/media/github.png": "/mohamud-portfolio/static/media/github.22cfdd1cba253783ce51.png",
-    "index.html": "/mohamud-portfolio/index.html",
-    "main.8a2bb796.css.map": "/mohamud-portfolio/static/css/main.8a2bb796.css.map",
-    "main.b256dbb9.js.map": "/mohamud-portfolio/static/js/main.b256dbb9.js.map",
-    "787.27ca2965.chunk.js.map": "/mohamud-portfolio/static/js/787.27ca2965.chunk.js.map"
+    "main.css": "/myportfolio/static/css/main.2bfa3377.css",
+    "main.js": "/myportfolio/static/js/main.21a5b081.js",
+    "static/js/787.27ca2965.chunk.js": "/myportfolio/static/js/787.27ca2965.chunk.js",
+    "static/media/rr.png": "/myportfolio/static/media/rr.21b0f2373f285424dbfb.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/sosa.JPG": "/myportfolio/static/media/sosa.5698bb6247131b602ad1.JPG",
+    "static/media/fontawesome-webfont.eot": "/myportfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/apiquiz.png": "/myportfolio/static/media/apiquiz.60ca8efba9ae5dcded33.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/pgen.png": "/myportfolio/static/media/pgen.7fcebaaccba073b6a583.png",
+    "static/media/wds.png": "/myportfolio/static/media/wds.e09b30056cbf8c539c7f.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/myportfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/tpg.png": "/myportfolio/static/media/tpg.55994bf3712cd737d9b7.png",
+    "static/media/note-taker.png": "/myportfolio/static/media/note-taker.52734ccadb605aca4d53.png",
+    "static/media/jate.png": "/myportfolio/static/media/jate.80c27ec2559cda015221.png",
+    "static/media/github.png": "/myportfolio/static/media/github.22cfdd1cba253783ce51.png",
+    "index.html": "/myportfolio/index.html",
+    "main.2bfa3377.css.map": "/myportfolio/static/css/main.2bfa3377.css.map",
+    "main.21a5b081.js.map": "/myportfolio/static/js/main.21a5b081.js.map",
+    "787.27ca2965.chunk.js.map": "/myportfolio/static/js/787.27ca2965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a2bb796.css",
-    "static/js/main.b256dbb9.js"
+    "static/css/main.2bfa3377.css",
+    "static/js/main.21a5b081.js"
   ]
 }
