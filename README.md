@@ -2,8 +2,7 @@
 
 
 ## Description
-
-This is a project was developed for the UCF Coding Bootcamp.  
+  
  The application contained within is a personal portfolio website built with Reactjs.
 
 ## Table of Contents
