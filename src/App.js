@@ -1,19 +1,32 @@
 import "./App.css";
+import Nav from "./common/Nav";
+import Home from "./Pages/Home";
+import "./common/Commoncss.css";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects";
 
-import Header from "./components/header";
-import Hero from "./components/hero";
-import About from "./components/about";
-import Projects from './components/project'
+import React, { Route, Routes } from "react-router-dom";
 
 
+function App() {
 
-export default function App() {
   return (
     <div>
-      <Header />
-      <Hero />
+      <Nav />
+      {/* <Home/>
       <About />
-      <Projects />
+   
+      <Contact/> */}
+      <Routes>
+        <Route exact="true" path="/myportfolio" element={<Home />}></Route>
+        <Route path="/myportfolio" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/portfolio" element={<Projects />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </div>
   );
 }
+
+export default App;
