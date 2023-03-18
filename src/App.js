@@ -19,8 +19,8 @@ function App() {
    
       <Contact/> */}
       <Routes>
-        <Route exact="true" path="/myportfolio" element={<Home />}></Route>
-        <Route path="/myportfolio" element={<Home />}></Route>
+        <Route exact="true" path="/mohamud-portfolio" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/portfolio" element={<Projects />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
