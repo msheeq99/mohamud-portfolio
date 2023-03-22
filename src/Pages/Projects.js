@@ -6,7 +6,7 @@ import wds from "../assets/img/wds.png";
 import apiquiz from "../assets/img/apiquiz.png";
 import pgen from "../assets/img/pgen.png";
 import tpg from "../assets/img/tpg.png";
-import rollerRide from "../assets/img/rollerRide.png"
+import rollerRide from "../assets/img/rollerRide.png";
 
 import "./Projects.css";
 
@@ -26,6 +26,14 @@ const Portfolio = () => {
                   <a href="https://shrouded-woodland-67381.herokuapp.com/">
                     <img src={RR} className="img-fluid" alt="1Life" />
                     <h6>Interactive Full-Stack Application</h6>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a-href="https://github.com/Lacko3006/all-albums-all-genres"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
                   </a>
                 </div>
               </div>
