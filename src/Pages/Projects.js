@@ -23,98 +23,202 @@ const Portfolio = () => {
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <a href="https://shrouded-woodland-67381.herokuapp.com/">
-                    <img src={RR} className="img-fluid" alt="1Life" />
+                   <img src={RR} className="img-fluid" alt="1Life" />
                     <h6>Interactive Full-Stack Application</h6>
                     <button
                       data-aos="fade-up"
                       type="Github"
-                      a-href="https://github.com/Lacko3006/all-albums-all-genres"
+                      a href="https://github.com/Lacko3006/all-albums-all-genres"
                       className="btn btn-primary"
                     >
                       github
                     </button>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://github.com/Lacko3006/all-albums-all-genres"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <a href="https://ms-texteditor.herokuapp.com/">
                     <img src={Jate} className="img-fluid" alt="Jate" />
                     <h6>Progressive Web Applications (PWA): Text Editor</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/msheeq99/text-editor"
+                      className="btn btn-primary"x
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://ms-texteditor.herokuapp.com/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <a href="https://ms-note-taker.herokuapp.com/">
                     <img
                       src={NoteTaker}
                       className="img-fluid"
                       alt="Express.js: Note Taker"
                     />
                     <h6>Express.js: Note Taker</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/msheeq99/expressjs-note-taker"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://ms-note-taker.herokuapp.com/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <a href="https://msheeq99.github.io/work-day-scheduler/">
                     <img
                       src={wds}
                       className="img-fluid"
                       alt="Third-Party APIs: Work Day Scheduler"
                     />
                     <h6>Third-Party APIs: Work Day Scheduler</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/msheeq99/work-day-scheduler"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://msheeq99.github.io/work-day-scheduler/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
+                  
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <a href="https://msheeq99.github.io/web-apis-codequiz/">
                     <img
                       src={apiquiz}
                       className="img-fluid"
                       alt="Web APIs: Code Quiz"
                     />
                     <h6>Web APIs: Code Quiz</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/msheeq99/web-apis-codequiz"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://msheeq99.github.io/web-apis-codequiz/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec">
-                  <a href="https://msheeq99.github.io/javascript-password-gen/">
                     <img
                       src={pgen}
                       className="img-fluid"
-                      alt="JavaScript: Password Generator"
-                    />
+                      alt="JavaScript: Password Generator"/>
                     <h6>JavaScript: Password Generator</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="button"
+                      a href="https://github.com/msheeq99/javascript-password-gen"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="button"
+                      a href="https://msheeq99.github.io/javascript-password-gen/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec">
-                  <a href="https://github.com/msheeq99/oop-team-profile ">
                     <img
                       src={tpg}
                       className="img-fluid"
                       alt="Object-Oriented Programming: Team Profile Generator"
                     />
                     <h6>Object-Oriented Programming: Team Profile Generator</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/msheeq99/oop-team-profile"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="Live"
+                      a href="https://msheeq99.github.io/oop-team-profile/"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec">
-                  <a href="https://roller-coaster4.herokuapp.com/home">
                     <img
                       src={rollerRide}
                       className="img-fluid"
                       alt="RollerRide"
                     />
                     <h6>MERN Stack Single-Page Application</h6>
-                  </a>
+                    <button
+                      data-aos="fade-up"
+                      type="Github"
+                      a href="https://github.com/HusaamNT/reactRollerRide"
+                      className="btn btn-primary"
+                    >
+                      github
+                    </button>
+                    <button
+                      data-aos="fade-up"
+                      type="button"
+                      a href="https://roller-coaster4.herokuapp.com/home"
+                      className="btn btn-primary"
+                    >
+                        Live page
+                    </button>
                 </div>
               </div>
             </div>
