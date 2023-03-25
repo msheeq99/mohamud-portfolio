@@ -25,44 +25,44 @@ const Portfolio = () => {
                 <div className="imgsec" data-aos="zoom-in">
                    <img src={RR} className="img-fluid" alt="1Life" />
                     <h6>Interactive Full-Stack Application</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
-                      type="Github"
-                      a href="https://github.com/Lacko3006/all-albums-all-genres"
+                      role="button"
+                      href="https://github.com/Lacko3006/all-albums-all-genres"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
-                      type="Live"
-                      a href="https://github.com/Lacko3006/all-albums-all-genres"
+                      role="button"
+                      href="https://github.com/Lacko3006/all-albums-all-genres"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
                     <img src={Jate} className="img-fluid" alt="Jate" />
                     <h6>Progressive Web Applications (PWA): Text Editor</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
-                      type="Github"
+                      role="button"
                       a href="https://github.com/msheeq99/text-editor"
                       className="btn btn-primary"x
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
-                      type="Live"
+                      role="button"
                       a href="https://ms-texteditor.herokuapp.com/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -73,22 +73,22 @@ const Portfolio = () => {
                       alt="Express.js: Note Taker"
                     />
                     <h6>Express.js: Note Taker</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
-                      type="Github"
-                      a href="https://github.com/msheeq99/expressjs-note-taker"
+                      role="button"
+                      href="https://github.com/msheeq99/expressjs-note-taker"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
-                      type="Live"
-                      a href="https://ms-note-taker.herokuapp.com/"
+                      role="button"
+                      href="https://ms-note-taker.herokuapp.com/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -99,22 +99,22 @@ const Portfolio = () => {
                       alt="Third-Party APIs: Work Day Scheduler"
                     />
                     <h6>Third-Party APIs: Work Day Scheduler</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
-                      type="Github"
-                      a href="https://github.com/msheeq99/work-day-scheduler"
+                      role="button"
+                      href="https://github.com/msheeq99/work-day-scheduler"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
-                      type="Live"
+                      role="button"
                       href="https://msheeq99.github.io/work-day-scheduler/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                   
                 </div>
               </div>
@@ -126,22 +126,22 @@ const Portfolio = () => {
                       alt="Web APIs: Code Quiz"
                     />
                     <h6>Web APIs: Code Quiz</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
                       type="Github"
                       a href="https://github.com/msheeq99/web-apis-codequiz"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
                       type="Live"
                       a href="https://msheeq99.github.io/web-apis-codequiz/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -151,22 +151,22 @@ const Portfolio = () => {
                       className="img-fluid"
                       alt="JavaScript: Password Generator"/>
                     <h6>JavaScript: Password Generator</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
                       type="button"
                       a href="https://github.com/msheeq99/javascript-password-gen"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
                       type="button"
                       a href="https://msheeq99.github.io/javascript-password-gen/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -177,22 +177,22 @@ const Portfolio = () => {
                       alt="Object-Oriented Programming: Team Profile Generator"
                     />
                     <h6>Object-Oriented Programming: Team Profile Generator</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
                       type="Github"
                       a href="https://github.com/msheeq99/oop-team-profile"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
                       type="Live"
                       a href="https://msheeq99.github.io/oop-team-profile/"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -203,22 +203,22 @@ const Portfolio = () => {
                       alt="RollerRide"
                     />
                     <h6>MERN Stack Single-Page Application</h6>
-                    <button
+                    <a
                       data-aos="fade-up"
-                      type="Github"
-                      a href="https://github.com/HusaamNT/reactRollerRide"
+                      role="button"
+                      href="https://github.com/HusaamNT/reactRollerRide"
                       className="btn btn-primary"
                     >
                       github
-                    </button>
-                    <button
+                    </a>
+                    <a
                       data-aos="fade-up"
-                      type="button"
-                      a href="https://roller-coaster4.herokuapp.com/home"
+                      role="button"
+                      href="https://roller-coaster4.herokuapp.com/home"
                       className="btn btn-primary"
                     >
                         Live page
-                    </button>
+                    </a>
                 </div>
               </div>
             </div>
