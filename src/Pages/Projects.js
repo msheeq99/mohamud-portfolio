@@ -202,7 +202,7 @@ const Portfolio = () => {
                       className="img-fluid"
                       alt="RollerRide"
                     />
-                    <h6>MERN Stack Single-Page Application</h6>
+                    <h6> MERN Stack Single-Page Application</h6>
                     <a
                       data-aos="fade-up"
                       role="button"
