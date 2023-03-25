@@ -13,7 +13,7 @@ const Nav = () => {
     <div>
       <div id="navigation">
         <ul>
-          <Link to="/mohamud-portfolio">
+          <Link to="/">
             <li data-aos="zoom-in">
               <img src={Home} alt="home" />
             </li>
@@ -38,7 +38,7 @@ const Nav = () => {
 
       <div id="navigation-mob">
         <h1 data-aos="fade-in">
-          <Link to="/myportfolio">Mohamud Sheeq</Link>
+          <Link to="/">Mohamud Sheeq</Link>
         </h1>
         <i
           data-aos="fade-in"
@@ -51,7 +51,7 @@ const Nav = () => {
             data-aos="slide-down"
             data-aos-duration="700"
           >
-            <Link to="/mohamud-portfolio">
+            <Link to="/">
               <li>Home</li>
             </Link>
             <Link to="/about">

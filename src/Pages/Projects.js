@@ -110,7 +110,7 @@ const Portfolio = () => {
                     <button
                       data-aos="fade-up"
                       type="Live"
-                      a href="https://msheeq99.github.io/work-day-scheduler/"
+                      href="https://msheeq99.github.io/work-day-scheduler/"
                       className="btn btn-primary"
                     >
                         Live page
