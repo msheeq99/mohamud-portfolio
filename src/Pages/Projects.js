@@ -6,7 +6,7 @@ import wds from "../assets/img/wds.png";
 import apiquiz from "../assets/img/apiquiz.png";
 import pgen from "../assets/img/pgen.png";
 import tpg from "../assets/img/tpg.png";
-
+import rollerRide from "../assets/img/rollerRide.png";
 
 import "./Projects.css";
 
@@ -145,7 +145,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="imgsec">
+                <div className="imgsec" data-aos="zoom-in">
                     <img
                       src={pgen}
                       className="img-fluid"
@@ -170,7 +170,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="imgsec">
+                <div className="imgsec" data-aos="zoom-in">
                     <img
                       src={tpg}
                       className="img-fluid"
@@ -196,9 +196,9 @@ const Portfolio = () => {
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="imgsec">
+                <div className="imgsec" data-aos="zoom-in">
                     <img
-                      
+                      src={rollerRide}
                       className="img-fluid"
                       alt="RollerRide"
                     />
