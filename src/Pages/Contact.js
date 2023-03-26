@@ -13,6 +13,14 @@ const Contact = () => {
           <div className="col-sm-6 offset-sm-3">
             <h2 data-aos="fade-up">Contact</h2>
             <br />
+            <a
+                      data-aos="fade-up"
+                      role="button"
+                      href="../asset/pdf/Mohamud-CV.pdf"
+                      className="btn btn-primary"
+                    >
+                      CV
+                    </a>
             <form>
               {/* <form ref={formRef}> */}
               <input
