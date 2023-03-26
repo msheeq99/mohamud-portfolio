@@ -6,7 +6,7 @@ import wds from "../assets/img/wds.png";
 import apiquiz from "../assets/img/apiquiz.png";
 import pgen from "../assets/img/pgen.png";
 import tpg from "../assets/img/tpg.png";
-import rollerRide from "../assets/img/rollerRide.png";
+
 
 import "./Projects.css";
 
@@ -198,7 +198,7 @@ const Portfolio = () => {
               <div className="col-sm-4">
                 <div className="imgsec">
                     <img
-                      src={rollerRide}
+                      
                       className="img-fluid"
                       alt="RollerRide"
                     />
