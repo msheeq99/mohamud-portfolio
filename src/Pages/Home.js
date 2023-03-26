@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Linkedinicon from "../assets/img/socialicons/linkedin.png";
 import Githubicon from "../assets/img/socialicons/github.png";
 import MailIcon from "../assets/img/socialicons/email.png";
+import Pdf from "../assets/pdf/Mohamud-CV.pdf";
 
 const Home = () => {
   return (
@@ -67,6 +68,13 @@ const Home = () => {
               <h3>Web Developer</h3>
               <br />
               <div className="row">
+              <div className="col-sm-4 col-6">
+                  <a href={Pdf} target="_blank" rel="noreferrer">
+                    <button type="button" className="btn btn-primary">
+                      Resume
+                    </button>
+                  </a>
+                </div>
                 <div className="col-sm-5 col-6">
                   <Link to="/contact">
                     <button type="button" className="btn btn-dark">

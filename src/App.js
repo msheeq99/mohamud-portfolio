@@ -5,7 +5,7 @@ import "./common/Commoncss.css";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
-
+import Learn from "./common/Learn";
 import React, { Route, Routes } from "react-router-dom";
 
 
@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <Learn />
       {/* <Home/>
       <About />
    
