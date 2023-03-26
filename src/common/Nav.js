@@ -4,6 +4,7 @@ import Home from "../assets/img/home.png";
 import About from "../assets/img/about.png";
 import Contact from "../assets/img/contact.png";
 import Projects from "../assets/img/portfolio.png";
+import Education from "../assets/img/education.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -26,6 +27,11 @@ const Nav = () => {
           <Link to="/portfolio">
             <li data-aos="zoom-in">
               <img src={Projects} alt="portfolio" />
+            </li>
+          </Link>
+          <Link to="/education">
+            <li data-aos="zoom-in">
+              <img src={Education} alt="education" />
             </li>
           </Link>
           <Link to="/contact">
@@ -59,6 +65,9 @@ const Nav = () => {
             </Link>
             <Link to="/projects">
               <li>Projects</li>
+            </Link>
+            <Link to="/education">
+              <li>Education</li>
             </Link>
             <Link to="/portfolio">
               <li>Portfolio</li>

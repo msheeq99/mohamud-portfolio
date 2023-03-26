@@ -5,7 +5,7 @@ import "./common/Commoncss.css";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
-import Learn from "./common/Learn";
+import Education from "./Pages/Education";
 import React, { Route, Routes } from "react-router-dom";
 
 
@@ -14,7 +14,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Learn />
       {/* <Home/>
       <About />
    
@@ -23,6 +22,7 @@ function App() {
         <Route exact="true" path="/" element={<Home />}></Route>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/education" element={<Education />}></Route>
         <Route path="/portfolio" element={<Projects />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
