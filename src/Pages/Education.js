@@ -41,7 +41,7 @@ const Education = () => {
                           <h4></h4>
                           <p>
                             React.js/ Java / HTML5 / CSS JavaScript / Node.js /
-                            Express.js / Bootstrap / Bulma / MongoDMongoDB /
+                            Express.js / Bootstrap / Bulma / MongoDB /
                             MySQL / NoSQL / Docker / Git 
                           </p>
                         </div>
