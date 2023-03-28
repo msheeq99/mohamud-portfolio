@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Linkedinicon from "../assets/img/socialicons/linkedin.png";
 import Githubicon from "../assets/img/socialicons/github.png";
 import MailIcon from "../assets/img/socialicons/email.png";
-import Pdf from "../assets/pdf/Mohamud-CV.pdf";
+import Pdf from "../assets/pdf/Mohamudcv.pdf";
 
 const Home = () => {
   return (
